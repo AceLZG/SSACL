@@ -1,5 +1,5 @@
 # SSACL
-acl rule for shadowsocks, copy from acl4ssr whitelist
+blacklist.acl https://raw.githubusercontent.com/AceLZG/SSACL/master/blacklist.acl
 
 chnroute.acl white list, use 
 ```
