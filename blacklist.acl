@@ -1,0 +1,42 @@
+#**********************************************************************
+# Ace
+# 2017年10月16日 
+#
+# 下载地址 https://raw.githubusercontent.com/AceLZG/SSACL/master/blacklist.acl
+#
+# 参数解释：
+# [proxy_all] 默认代理
+# [bypass_all] 默认直连 - 本规则使用
+# [proxy_list] 代理列表
+# [bypass_list] 直连列表 
+# [outbound_block_list] 禁止访问列表
+# [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
+#
+#**********************************************************************
+
+[bypass_all]
+
+[proxy_list]
+(^|\.)google\.(com|.{2})
+(^|\.)facebook\.(com|.{2})
+(^|\.)twitter\.(com|.{2})
+(^|\.)youtube\.(com|.{2})
+(^|\.)linkedin\.(com|.{2})
+(^|\.)wordpress\.(com|.{2})
+(^|\.)instagram\.(com|.{2})
+(^|\.)pinterest\.(com|.{2})
+(^|\.)wikipedia\.(com|.{2})
+(^|\.)blogspot\.(com|.{2})
+(^|\.)tumblr\.(com|.{2})
+(^|\.)youtu\.(com|.{2})
+(^|\.)goo\.(gl|.{2})
+(^|\.)flickr\.(com|.{2})
+(^|\.)bit\.(ly|.{2})
+(^|\.)reddit\.(com|.{2})
+(^|\.)nytimes\.(com|.{2})
+(^|\.)t\.(co|.{2})
+(^|\.)blogger\.(co|.{2})
+(^|\.)github\.(co|.{2})
+(^|\.)cnn\.(co|.{2})
+(^|\.)economist\.(co|.{2})
+(^|\.)dropbox\.(co|.{2})
